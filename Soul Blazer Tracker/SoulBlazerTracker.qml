@@ -330,8 +330,6 @@ Rectangle {
             // 1B6B 1B6E -> 15 00 42 00 before turning P item
             // 1B6B 1B6E -> 44 00 44 00
         }
-
-        }
     }
     Row {
         id: miniItemRow

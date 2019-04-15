@@ -10,8 +10,8 @@ Item {
     property alias fontFamily : countText.font.family
     Image {
         id : image
-        width: parent.height
-        height: parent.height
+        width: source == "" ? 0 : parent.height
+        height: source == "" ? 0 : parent.height
         anchors.left: parent.left
         anchors.leftMargin: 0
         fillMode: Image.PreserveAspectFit

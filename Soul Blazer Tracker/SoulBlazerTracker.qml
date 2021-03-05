@@ -774,7 +774,6 @@ Rectangle {
                     id: purpleStone
                     width: 20
                     height: 20
-                    owned: false
                     source: "Images/SB_Items_Purple_Stone.png"
                 }
                 Item {
@@ -785,7 +784,6 @@ Rectangle {
                         id: blackStone
                         width: 20
                         height: 20
-                        owned: false
                         source: "Images/SB_Items_Black_Stone.png"
                         onOwnedChanged: {
                             console.debug("Piko")
